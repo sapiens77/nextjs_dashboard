@@ -1,0 +1,12 @@
+import { Inter, Nanum_Gothic, Lusitana } from 'next/font/google';
+ 
+export const inter = Inter({ subsets: ['latin'] });
+export const nanum_gothic = Nanum_Gothic({ 
+                                            weight: ['400','700'],
+                                            subsets: ['latin']
+                                    });
+
+export const lusitana = Lusitana({ 
+                                            weight: ['400','700'],
+                                            subsets: ['latin']
+                                    });
